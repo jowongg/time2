@@ -1,0 +1,17 @@
+body {
+	background: white;
+    position: absolute;
+	font-family: 'Roboto Mono', monospace;
+}
+
+input{
+	font-family: 'Roboto Mono', monospace;
+}
+button{
+	font-family: 'Roboto Mono', monospace;
+}
+
+.shownMemory {
+	position: absolute;
+	font-family: 'Roboto Mono', monospace;
+}

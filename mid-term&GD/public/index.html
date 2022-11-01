@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src='/socket.io/socket.io.js'></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src='indexScript.js'></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='indexCss.css'>
+	</head>
+	<body>
+		<input type="text" placeholder="what is going on..." id="input" >
+		<input type="color" id="color" name="head" value="#000000">
+		<input type="range" id="fontSize" name="fontSize" min="18" max="70">
+        <label for="fontSize">weight</label>
+        <button type="button" onclick="enterButton();">leave your trace</button>
+        <button type="button" onclick="error();" >Go back in time</button>
+        <button type="button" onclick="error();">Go forward in time</button>
+		<button type="button" onclick="webText.longestMemory();">Find the longest memory</button>
+		<div class="test"></div>
+		<p class='shownMemory'></p>
+	</body>
+</html>
