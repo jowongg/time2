@@ -3,7 +3,7 @@
 // Professor: Adam Tindale
 // Mid-term
 
-let socket = io.connect("http://localhost:29775/");
+let socket = io.connect("https://jowongg.github.io/time2/");
 
 var lifeWeight = 0;
 
